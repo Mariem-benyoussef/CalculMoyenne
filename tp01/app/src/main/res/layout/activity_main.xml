@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcul de la moyenne"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devoir de Controle"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id ="@+id/txtDC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devoir de Synthese"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#55FF88"
+        />
+    <EditText
+        android:id ="@+id/txtDS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/moyenne"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULER moyenne" />
+
+    <Button
+        android:id="@+id/effacer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF00"
+        android:text="EFFACER"
+
+        />
+
+    <TextView
+        android:id="@+id/txtmoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moyenne="
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+</LinearLayout>
